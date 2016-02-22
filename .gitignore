@@ -1,0 +1,25 @@
+#Mac temp files
+.DS_Store
+
+node_modules
+bin
+
+*.map
+
+#Private keys
+*.pem
+
+#IntelliJ project folder
+.idea
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+public/js/soy
+
+#Build files
+build/
+
+#Generated public-facing files
+public/gen

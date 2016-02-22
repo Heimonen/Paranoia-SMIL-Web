@@ -1,0 +1,34 @@
+.jumbotron.masthead {
+  text-align: center;
+  margin-top: 0;
+  background-image:url('/images/computer.jpg');
+  background-size:cover;
+  background-color: #EEEEEE;
+  height:530px;
+}
+
+.jumbotron.masthead h1 {
+  font-size: 120px;
+  letter-spacing: -2px;
+  line-height: 1;
+  color: white;
+}
+
+.jumbotron.masthead .container {
+  position: relative;
+  z-index: 2;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+.hero-unit h2 {
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+/* Remove the margin between the jumbotron and navbar */
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
