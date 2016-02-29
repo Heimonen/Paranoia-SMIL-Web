@@ -7,6 +7,15 @@
   height:530px;
 }
 
+.jumbotron.masthead.small {
+  text-align: center;
+  margin-top: 0;
+  background-image:url('/images/computer.jpg');
+  background-size:cover;
+  background-color: #EEEEEE;
+  height:300px;
+}
+
 .jumbotron.masthead h1 {
   font-size: 120px;
   letter-spacing: -2px;

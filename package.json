@@ -25,6 +25,7 @@
     "express-partials": "^0.3.0",
     "handlebars": "^4.0.5",
     "hbs": "~3.1.0",
+    "http-status": "^0.2.0",
     "jugglingdb-postgres": "jugglingdb/postgres-adapter",
     "knex": "^0.10.0",
     "lodash": "^4.5.1",
