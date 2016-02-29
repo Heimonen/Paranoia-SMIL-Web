@@ -41,3 +41,5 @@ exports.down = function(knex, Promise) {
     Promise.all(promises).then(resolve).catch(reject);
   });
 };
+
+//339601 érbjudande ellos

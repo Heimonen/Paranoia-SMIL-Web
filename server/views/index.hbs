@@ -1,11 +1,15 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Paranoia</a>
+      <a class="navbar-brand" href="/">Paranoia</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Users</a></li>
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="/users">Users</a></li>
+    </ul>
+    <ul class="nav navbar-nav pull-right">
+      <li><a id='smil_log_in' href="/login">Log in</a></li>
+      <li><a id='smil_create_user' href="/create_user">Create user</a></li>
     </ul>
   </div>
 </nav>
@@ -23,7 +27,15 @@
   Programmer) and the other players. Obviously this doesn't go unnoticed from the High Programmer who has several tools at his disposal.
   </p>
 </div>
-
-<script>
-
+<script >
+  $('#smil_log_in').click(function() {
+    console.log('log in clicked');
+   /* $.ajax({
+      type: 'GET',
+      url: 'http://localhost:3000/login'
+    });*/
+  });
+  $('#smil_create_user').click(function() {
+    console.log('create user clicked');
+  })
 </script>
